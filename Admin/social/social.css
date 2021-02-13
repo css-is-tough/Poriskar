@@ -51,6 +51,9 @@ body{
     flex-direction: row;
     flex-wrap: wrap;
     margin:80px 30px 30px 50px;
+    margin:auto;
+    margin-top:50px;
+    margin-left:100px;
 }
 
 .imageCard{
