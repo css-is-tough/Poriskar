@@ -8,6 +8,7 @@ body{
     overflow-x: hidden;
 }
 
+
 .navbar{
     padding-top: 10px;
     padding-bottom: 0px;
@@ -15,6 +16,9 @@ body{
     padding-right: 50px;
     background-color:green;
     width: 100%;
+    position: fixed;
+    top:0;
+    z-index: 1;
 }
 
 .navbar-right{
@@ -44,6 +48,14 @@ body{
 }
 
 
+.socialLine{
+    text-align: center;
+    font-size:40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    margin-top:100px;
+}
+
 
 
 .imageContainer{
@@ -52,7 +64,7 @@ body{
     flex-wrap: wrap;
     margin:80px 30px 30px 50px;
     margin:auto;
-    margin-top:50px;
+    margin-top:70px;
     margin-left:100px;
 }
 
