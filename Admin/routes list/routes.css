@@ -55,28 +55,45 @@
     margin-top:100px;
 }
 
-.rectangle{
+.routesListItem{
     border:2px solid green;
-    padding:10px 10px;
-    margin:10px}List a{
-    text-decoration:none;
-    color:black;
-    font-size:15px}List a:hover{
-    text-decoration:underline;
-    color:green;
-    font-weight:bold;
+    padding:10px 20px 10px 20px;
 }
 
-.routesList a{
-    text-decoration:none;
-    color:black;
-    font-size:15px;
+.routesListItem b{
+    font-size: 20px;
 }
 
-.routesList a:hover{
-    text-decoration:underline;
-    color:green;
-    font-weight:bold;
+.routesListItem strong{
+    font-size: 18px;
 }
 
 
+.btnContainer{
+    margin-top:10px;
+}
+
+.btnContainer p{
+    margin-top:8px;
+    display:none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 18px;
+}
+
+.btnContainer button{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode',Arial, sans-serif;
+    font-size: 15px;
+    padding:7px 10px;
+    background-color: #007df6;
+    color: #fff;
+    border:none;
+    border-radius:10px;
+}
+
+.btnContainer button:focus{
+    outline: none;
+}
+
+.btnContainer button:hover{
+    cursor:pointer;
+}
